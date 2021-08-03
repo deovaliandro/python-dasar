@@ -12,7 +12,7 @@ Python digunakan juga di banyak perusahaan seperti Google, NASA, CIA dan sebagai
 
 > Python dijalankan menggunakan interpreter, yang artinya tidak perlu di compile untuk menjalankannya!
 
-Pada saat tulisan ini dibuat, Python sudah mencapai versi ==3.8==.
+Pada saat tulisan ini dibuat, Python sudah mencapai versi `3.9`.
 
 ### Instalasi Python
 
