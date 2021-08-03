@@ -22,7 +22,7 @@ Atau jika menggunakan sistem operasi Linux, maka Python sudah menjadi bawaannya.
 
 ### Program pertama
 
-Seperti pada setiap pemrograman, hal pertama yang dilakukan adalah menjalankan ==Hello World==
+Seperti pada setiap pemrograman, hal pertama yang dilakukan adalah menjalankan `Hello World`
 
 Untuk menjalankan program pertama, buka terminal atau cmd, ketikkan `python`, lalu masuk kan:
 
