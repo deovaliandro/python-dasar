@@ -1,6 +1,6 @@
 # Python 3
 
-Oleh: Deo Valiandro. M - H131 16 306
+Oleh: Deo Valiandro. M <valiandrod@gmail.com> - H131 16 306
 
 ## Konsep Dasar
 
@@ -40,7 +40,7 @@ Yey, berhasil...!!! :D
 
 ### Operasi sederhana
 
-Python dapat digunakan sebagai ==kalkulator== sederhana. Coba lakukan operasi sederhana, misalnya:
+Python dapat digunakan sebagai kalkulator sederhana. Coba lakukan operasi sederhana, misalnya:
 
 ```python
 >>> 2 + 2
@@ -74,7 +74,7 @@ ZeroDivisionError: division by zero
 
 ### Float/ desimal
 
-Tipe ==data float adalah tipe data yang berisi bilangan desimal==. Misalnya:
+Tipe data float adalah tipe data yang berisi bilangan desimal. Misalnya:
 
 ```python
 >>> 4.0 + 2.0
