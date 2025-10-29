@@ -6,25 +6,34 @@ Oleh: Deo Valiandro. M <valiandrod@gmail.com> - H131 16 306
 
 ### Selamat datang
 
-Python adalah salah satu bahasa pemrograman tingkat tinggi dengan aplikasi pada banyak area, mulai dari pada pemrograman web, data mining, keamanan, sampai pada mikrocontroller.
+Python adalah salah satu bahasa pemrograman tingkat tinggi dengan aplikasi pada
+banyak area, mulai dari pada pemrograman web, data mining, keamanan, sampai pada
+mikrocontroller.
 
-Python digunakan juga di banyak perusahaan seperti Google, NASA, CIA dan sebagainya.
+Python digunakan juga di banyak perusahaan seperti Google, NASA, CIA dan
+sebagainya.
 
-> Python dijalankan menggunakan interpreter, yang artinya tidak perlu di compile untuk menjalankannya!
+> Python dijalankan menggunakan interpreter, yang artinya tidak perlu di compile
+untuk menjalankannya!
 
 Pada saat tulisan ini dibuat, Python sudah mencapai versi `3.9`.
 
 ### Instalasi Python
 
-Untuk menginstal Python, pertama-tama dengan mendownload file installernya di [website](https://www.python.org/) resmi dari Python.
+Untuk menginstal Python, pertama-tama dengan mendownload file installernya di
+[website](https://www.python.org/) resmi dari Python.
 
-Atau jika menggunakan sistem operasi Linux, maka Python sudah menjadi bawaannya. Untuk menggunakannya, dapat dengan membuka `cmd` atau `terminal`, lalu mengetikkan `python` atau `python3`.
+Atau jika menggunakan sistem operasi Linux, maka Python sudah menjadi bawaannya.
+Untuk menggunakannya, dapat dengan membuka `cmd` atau `terminal`, lalu
+mengetikkan `python` atau `python3`.
 
 ### Program pertama
 
-Seperti pada setiap pemrograman, hal pertama yang dilakukan adalah menjalankan `Hello World`
+Seperti pada setiap pemrograman, hal pertama yang dilakukan adalah menjalankan
+`Hello World`
 
-Untuk menjalankan program pertama, buka terminal atau cmd, ketikkan `python`, lalu masuk kan:
+Untuk menjalankan program pertama, buka terminal atau cmd, ketikkan `python`,
+lalu masuk kan:
 
 ```python
 >>> print("Hello World")
@@ -40,7 +49,8 @@ Yey, berhasil...!!! :D
 
 ### Operasi sederhana
 
-Python dapat digunakan sebagai kalkulator sederhana. Coba lakukan operasi sederhana, misalnya:
+Python dapat digunakan sebagai kalkulator sederhana. Coba lakukan operasi
+sederhana, misalnya:
 
 ```python
 >>> 2 + 2
@@ -51,17 +61,17 @@ Python dapat digunakan sebagai kalkulator sederhana. Coba lakukan operasi sederh
 
 Untuk operasi aritmetika, Python menggunakan beberapa simbol:
 
-​		<kbd>+</kbd> untuk operasi penjumlahan
+​ <kbd>+</kbd> untuk operasi penjumlahan
 
-​		<kbd>-</kbd> untuk operasi pengurangan
+​ <kbd>-</kbd> untuk operasi pengurangan
 
-​		<kbd>/</kbd> untuk operasi pembagian
+​ <kbd>/</kbd> untuk operasi pembagian
 
-​		<kbd>*</kbd> untuk operasi perkalian
+​ <kbd>\*</kbd> untuk operasi perkalian
 
-​		<kbd>//</kbd> untuk pembagian dengan pembulatan ke bawah
+​ <kbd>//</kbd> untuk pembagian dengan pembulatan ke bawah
 
-​		<kbd>%</kbd> untuk operasi modulo
+​ <kbd>%</kbd> untuk operasi modulo
 
 Membagi dengan angka 0 (nol) akan dianggap error dalam Python:
 
@@ -88,7 +98,8 @@ Pada Python, membagi dua int akan menghasilkan float,
 4.0
 ```
 
-atau melakukan operasi aritmetika dengan 2 buah float, atau salah satunya adalah float,
+atau melakukan operasi aritmetika dengan 2 buah float, atau salah satunya adalah
+float,
 
 ```python
 >>> 6 * 5.0
@@ -99,7 +110,7 @@ atau melakukan operasi aritmetika dengan 2 buah float, atau salah satunya adalah
 
 ### Pangkat
 
-Pada Python, pangkat dilakukan dengan menggunakan simbol <kbd>**</kbd>:
+Pada Python, pangkat dilakukan dengan menggunakan simbol <kbd>\*\*</kbd>:
 
 ```python
 >>> 2 ** 2
@@ -110,9 +121,10 @@ Pada Python, pangkat dilakukan dengan menggunakan simbol <kbd>**</kbd>:
 
 ### String
 
-Untuk ==menggunakan teks, maka kita menggunakan tipe data string==.
+Untuk menggunakan teks, maka kita menggunakan tipe data string.
 
-String dibuat dengan menggunakan tanda kutip satu (<kbd>'</kbd>), atau kutip dua (<kbd>"</kbd>). Contohnya:
+String dibuat dengan menggunakan tanda kutip satu (<kbd>'</kbd>), atau kutip dua
+(<kbd>"</kbd>). Contohnya:
 
 ```python
 >>> "Hello"
@@ -121,15 +133,19 @@ String dibuat dengan menggunakan tanda kutip satu (<kbd>'</kbd>), atau kutip dua
 Hello
 ```
 
-Ada beberapa karakter yang tidak dapat langsung di ketik pada string, misalnya tanda <kbd>'</kbd> , untuk mengatasinya, digunakan tanda <kbd>\\</kbd>, contohnya:
+Ada beberapa karakter yang tidak dapat langsung di ketik pada string, misalnya
+tanda <kbd>'</kbd> , untuk mengatasinya, digunakan tanda <kbd>\\</kbd>,
+contohnya:
 
 ```python
 "Ini tanda petik \"."
 ```
 
-contoh lain adalah tanda `\n` (_newline_) untuk membuat baris baru dan karakter <kbd>\\</kbd> (*backslash*) itu sendiri.
+contoh lain adalah tanda `\n` (_newline_) untuk membuat baris baru dan karakter
+<kbd>\\</kbd> (_backslash_) itu sendiri.
 
-> Menggunakan karakter tiga petik (<kbd>"""</kbd>) pada string, akan membuat teks di print mengikuti penulisannya. Misalnya:
+> Menggunakan karakter tiga petik (<kbd>"""</kbd>) pada string, akan membuat
+teks di print mengikuti penulisannya. Misalnya:
 >
 > ```python
 > >>> print("""Halo,
@@ -171,7 +187,9 @@ halodunia
 halo dunia
 ```
 
-walaupun ada string yang berbentuk int, lalu dijumlahkan, maka tetap akan berbentuk string, lain halnya jika int dijumlahkan dengan string, maka akan menghasilkan error.
+walaupun ada string yang berbentuk int, lalu dijumlahkan, maka tetap akan
+berbentuk string, lain halnya jika int dijumlahkan dengan string, maka akan
+menghasilkan error.
 
 ```python
 >>> "2" + "3"
@@ -182,11 +200,14 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-string juga bisa di kali dengan int. Hasilnya adalah string tersebut yang di ulang-ulang. Urutan perkaliannya tidak berpengaruh, tetapi biasanya string yang ada di urutan pertama.
+string juga bisa di kali dengan int. Hasilnya adalah string tersebut yang
+diulang-ulang. Urutan perkaliannya tidak berpengaruh, tetapi biasanya string
+yang ada di urutan pertama.
 
->  Mengalikan string dengan 0 (nol) akan menghasilkan _string_ kosong
+> Mengalikan string dengan 0 (nol) akan menghasilkan _string_ kosong
 
-string tidak bisa dikalikan dengan string lain dan tidak bisa juga dikalikan dengan float. Contohnya:
+string tidak bisa dikalikan dengan string lain dan tidak bisa juga dikalikan
+dengan float. Contohnya:
 
 ```python
 >>> "halo"*3
@@ -217,7 +238,8 @@ Masukkan angka: 2
 
 ### Variabel
 
-==Variabel berguna untuk menyimpan nilai dengan suatu nama==. Variabel dapat digunakan berkali-kali. Misalnya:
+Variabel berguna untuk menyimpan nilai dengan suatu nama. Variabel dapat
+digunakan berkali-kali. Misalnya:
 
 ```python
 >>> x = 12
@@ -228,7 +250,8 @@ Masukkan angka: 2
 6
 ```
 
-Penamaan variabel pada Python dapat menggunakan angka, huruf dan _underscore_. Namun, tidak dapat dimulai dengan angka. Contohnya:
+Penamaan variabel pada Python dapat menggunakan angka, huruf dan _underscore_.
+Namun, tidak dapat dimulai dengan angka. Contohnya:
 
 ```python
 >>> ini_adalah_variabel = 1
@@ -238,7 +261,8 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 ```
 
-Memanggil variabel yang tidak ada akan menyebabkan error. Variabel juga dapat dihapus, caranya:
+Memanggil variabel yang tidak ada akan menyebabkan error. Variabel juga dapat
+dihapus, caranya:
 
 ```python
 >>> bar
@@ -251,11 +275,14 @@ NameError: name 'bar' is not defined
 NameError: name 'foo' is not defined
 ```
 
-> Variabel foo dan bar adalah variabel **metasyntactic**, maksudnya adalah nama yang sering dijadikan alat untuk demonstrasi program
+> Variabel foo dan bar adalah variabel **metasyntactic**, maksudnya adalah nama
+yang sering dijadikan alat untuk demonstrasi program
 
 ### Operator Increment
 
-Operator increment memungkinkan kita menulis code lebih singkat, misalnya `x = x+2` menjadi `x+=2`. Hal ini juga dapat digunakan pada operasi <kbd>-</kbd>, <kbd>*</kbd>, <kbd>/</kbd>, dan <kbd>%</kbd>. Contohnya:
+Operator increment memungkinkan kita menulis code lebih singkat, misalnya
+`x = x+2` menjadi `x+=2`. Hal ini juga dapat digunakan pada operasi
+<kbd>-</kbd>, <kbd>\*</kbd>, <kbd>/</kbd>, dan <kbd>%</kbd>. Contohnya:
 
 ```python
 >>> x = 2
@@ -274,7 +301,8 @@ b0zzb0zz
 
 ### Komentar
 
-Untuk memberi komentar pada program, digunakan perintah tanda <kbd>#</kbd> pada komentar dan hanya bisa pada 1 baris, misalnya:
+Untuk memberi komentar pada program, digunakan perintah tanda <kbd>#</kbd> pada
+komentar dan hanya bisa pada 1 baris, misalnya:
 
 ```python
 x = 365
@@ -292,7 +320,8 @@ Hasilnya:
 1
 ```
 
-**Docstrings** (documentation strings) adalah tanda yang mirip komentar, tetapi digunakan untuk menjelaskan kode yang ada, dan dapat lebih dari 1 baris. Contohnya:
+**Docstrings** (documentation strings) adalah tanda yang mirip komentar, tetapi
+digunakan untuk menjelaskan kode yang ada, dan dapat lebih dari 1 baris. Contohnya:
 
 ```python
 def shout(word):
@@ -301,7 +330,7 @@ def shout(word):
     exclamation mark following it.
     """
   	print(word + "!")
-    
+
 shout("spam")
 ```
 
@@ -315,14 +344,15 @@ spam!
 
 ### Boolean
 
-Boolean adalah ==tipe data yang memiliki dua nilai==, yaitu `TRUE` dan `FALSE`. Boolean dapat dibuat dengan membandingkan variabel dengan menggunakan simbol:
+Boolean adalah tipe data yang memiliki dua nilai, yaitu `TRUE` dan `FALSE`.
+Boolean dapat dibuat dengan membandingkan variabel dengan menggunakan simbol:
 
-+ <kbd>==</kbd> untuk sama dengan
-+ <kbd>!=</kbd> untuk tidak sama dengan
-+ <kbd>></kbd> untuk lebih besar (untuk int dan float)
-+ <kbd><</kbd> untuk lebih kecil (untuk int dan float)
-+ <kbd>>=</kbd> untuk lebih besar atau sama dengan (untuk int dan float)
-+ <kbd><=</kbd> untuk lebih kecil atau sama dengan (untuk int dan float)
+- <kbd>==</kbd> untuk sama dengan
+- <kbd>!=</kbd> untuk tidak sama dengan
+- <kbd>></kbd> untuk lebih besar (untuk int dan float)
+- <kbd><</kbd> untuk lebih kecil (untuk int dan float)
+- <kbd>>=</kbd> untuk lebih besar atau sama dengan (untuk int dan float)
+- <kbd><=</kbd> untuk lebih kecil atau sama dengan (untuk int dan float)
 
 ```python
 >>> my_bool = True
@@ -335,7 +365,8 @@ True
 
 ### Statemen If dan If-Else
 
-If digunakan untuk ==melakukan perintah ketika suatu kondisi bernilai benar==. If bisa memiliki if lagi di dalamnya. Contohnya:
+If digunakan untuk melakukan perintah ketika suatu kondisi bernilai benar.
+If bisa memiliki if lagi di dalamnya. Contohnya:
 
 ```python
 foo = 2
@@ -364,7 +395,9 @@ if foo > 0:
 2
 ```
 
-else digunakan untuk sebagai alternatif jika kondisi if tidak terpenuhi, selain else, dapat juga digunakan multi if atau `else if` yang disingkat `elif` dalam Python. Contohnya:
+else digunakan untuk sebagai alternatif jika kondisi if tidak terpenuhi, selain
+else, dapat juga digunakan multi if atau `else if` yang disingkat `elif` dalam
+Python. Contohnya:
 
 ```python
 foo = 12
@@ -404,9 +437,9 @@ Hasilnya:
 
 Logika boolean yaitu `and`, `or` dan `not`.
 
-+ `and` akan bernilai benar jika kedua pernyataan benar,
-+ `or` akan bernilai benar jika salah satu pernyataan benar atau keduanya benar,
-+ `not` akan memberikan nilai balikan.
+- `and` akan bernilai benar jika kedua pernyataan benar,
+- `or` akan bernilai benar jika salah satu pernyataan benar atau keduanya benar,
+- `not` akan memberikan nilai balikan.
 
 Contohnya:
 
@@ -457,7 +490,9 @@ True
 
 ### Operator while
 
-Operator while bekerja seperti operator if, namun pada operator if hanya bisa berjalan sekali, sedangkan pada operator while, ==bisa dijalankan terus menerus selama kondisi yang diberikan terpenuhi==. Contohnya:
+Operator while bekerja seperti operator if, namun pada operator if hanya bisa
+berjalan sekali, sedangkan pada operator while, bisa dijalankan terus menerus
+selama kondisi yang diberikan terpenuhi. Contohnya:
 
 ```python
 i = 1
@@ -486,11 +521,13 @@ while 1==1:
   	print("In the loop")
 ```
 
-> Program infinity loop dapat dihentikan dengan mengetikkan <kbd>CTRL</kbd> + <kbd>C</kbd> atau dengan menutup program
+> Program infinity loop dapat dihentikan dengan mengetikkan
+<kbd>CTRL</kbd> + <kbd>C</kbd> atau dengan menutup program
 
 #### break
 
-untuk ==menghentikan while tanpa mengikuti semua kemungkinan== maka digunakan `break`. Contohnya:
+untuk menghentikan while tanpa mengikuti semua kemungkinan maka digunakan
+`break`. Contohnya:
 
 ```python
 i = 0
@@ -516,11 +553,13 @@ Breaking
 Finished
 ```
 
-> Menggunakan perintah break di luar operasi perulangan seperti while akan menyebabkan error
+> Menggunakan perintah break di luar operasi perulangan seperti while akan
+menyebabkan error
 
 #### continue
 
-continue digunakan untuk ==melompati suatu while ketika terdapat kondisi tertentu==. Contohnya:
+continue digunakan untuk melompati suatu while ketika terdapat kondisi
+tertentu. Contohnya:
 
 ```python
 i = 0
@@ -548,11 +587,14 @@ Breaking
 Finished
 ```
 
->  Menggunakan perintah continue di luar operasi perulangan seperti while akan menyebabkan error
+> Menggunakan perintah continue di luar operasi perulangan seperti while akan
+> menyebabkan error
 
 ### List
 
-List adalah ==tipe data dalam Python yang berfungsi untuk menapung data dalam bentuk indeks==. List dibuat dengan menggunakan tanda kurung kotak (`[]`) dan setiap item dipisahkan dengan tanda koma (,).
+List adalah tipe data dalam Python yang berfungsi untuk menapung data dalam
+bentuk indeks. List dibuat dengan menggunakan tanda kurung kotak (`[]`) dan
+setiap item dipisahkan dengan tanda koma (,).
 
 > Indeks list dimulai dari angka 0 (nol)
 
@@ -586,7 +628,8 @@ Hasilnya:
 []
 ```
 
-List dapat menampung berbagai tipe data, misalnya int, string dan float dalam satu list.
+List dapat menampung berbagai tipe data, misalnya int, string dan float dalam
+satu list.
 
 > List dapat menampung list lainnya
 
@@ -610,7 +653,9 @@ Hasilnya:
 
 > Membuat indeks di luar batas jumlah indeks akan menyebabkan error
 
-Beberapa tipe data seperti string dapat dijadikan list, yang isinya adalah setiap karakter dalam string. Namun untuk int dan float, akan menyebabkan `TypeError`. Contohnya:
+Beberapa tipe data seperti string dapat dijadikan list, yang isinya adalah
+setiap karakter dalam string. Namun untuk int dan float, akan menyebabkan
+`TypeError`. Contohnya:
 
 ```python
 str = "Hello world!"
@@ -639,7 +684,7 @@ Hasilnya:
 [7, 7, 5, 7, 7]
 ```
 
-List  juga dapat ditambah atau dikalikan:
+List juga dapat ditambah atau dikalikan:
 
 ```python
 nums = [1, 2, 3]
@@ -654,7 +699,8 @@ Hasilnya:
 [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 
-Untuk mengecek suatu item di dalam suatu list, digunakan perintah `in` dan hasilnya True jika tidak ada dan False jika tidak ada. Contohnya:
+Untuk mengecek suatu item di dalam suatu list, digunakan perintah `in` dan
+hasilnya True jika tidak ada dan False jika tidak ada. Contohnya:
 
 ```python
 foo = ["Aku", "Kamu", "Dia", "Mereka"]
@@ -669,7 +715,8 @@ True
 False
 ```
 
-Untuk mengecek apakah suatu item tidak ada dalam list, maka digunakan `not`. Misalnya:
+Untuk mengecek apakah suatu item tidak ada dalam list, maka digunakan `not`.
+Misalnya:
 
 ```python
 foo = ["Aku", "Kamu", "Dia", "Mereka"]
@@ -684,7 +731,8 @@ False
 True
 ```
 
-Untuk menghitung jumlah indeks dalam list, digunakan perintah `len()`. Contohnya:
+Untuk menghitung jumlah indeks dalam list, digunakan perintah `len()`.
+Contohnya:
 
 ```pyhton
 nums = [1, 3, 5, 2, 4]
@@ -697,7 +745,8 @@ Hasilnya:
 5
 ```
 
-Untuk mencari indeks suatu item di dalam list, dapat digunakan `.index()`. Contohnya:
+Untuk mencari indeks suatu item di dalam list, dapat digunakan `.index()`.
+Contohnya:
 
 ```python
 letters = ['p', 'q', 'r', 's', 'p', 'u']
@@ -738,7 +787,8 @@ Hasilnya:
 
 #### insert
 
-perintah `insert` digunakan untuk menambahkan item ke indeks yang ditentukan. Misalnya:
+perintah `insert` digunakan untuk menambahkan item ke indeks yang ditentukan.
+Misalnya:
 
 ```python
 words = ["Python", "fun"]
@@ -755,7 +805,9 @@ Hasilnya:
 
 ### Fungsi range
 
-Range digunakan untuk ==menyatakan angka dalam suatu batas tertentu==. Misalnya untuk membuat list dengan isi angka 0 - 9, maka kita dapat menggunakan range sebagai berikut:
+Range digunakan untuk menyatakan angka dalam suatu batas tertentu. Misalnya
+untuk membuat list dengan isi angka 0 - 9, maka kita dapat menggunakan range
+sebagai berikut:
 
 ```python
 numbers = list(range(10))
@@ -768,7 +820,8 @@ Maka hasilnya sebagai berikut:
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-range juga dapat menggunakan 2 parameter, yaitu parameter awal dan akhir. Misalnya:
+range juga dapat menggunakan 2 parameter, yaitu parameter awal dan akhir.
+Misalnya:
 
 ```python
 numbers = list(range(4,10))
@@ -781,7 +834,8 @@ Hasilnya:
 [4, 5, 6,7, 8, 9]
 ```
 
-range juga dapat menggunakan 3 parameter, di mana 2 parameter awal adalah parameter awal dan akhir sedangkan parameter ke-3 adalah interval/ lompatan.
+range juga dapat menggunakan 3 parameter, di mana 2 parameter awal adalah
+parameter awal dan akhir sedangkan parameter ke-3 adalah interval/ lompatan.
 
 > Parameter ketiga haruslah integer
 
@@ -800,7 +854,9 @@ Hasilnya:
 
 ### Perulangan
 
-Perulangan adalah ==fungsi untuk melakukan sesuatu secara berulang-ulang== atau iterasi. Perulangan bisa menggunakan [while](###Operator-while) , seperti telah dijelaskan sebelumnya.
+Perulangan adalah fungsi untuk melakukan sesuatu secara berulang-ulang atau
+iterasi. Perulangan bisa menggunakan [while](###Operator-while) , seperti telah
+dijelaskan sebelumnya.
 
 Selain while, dapat juga digunakan `for`, dengan menggunakan range.
 
@@ -844,15 +900,20 @@ hello!
 
 ### Kode yang baik
 
-Kode yang baik adalah kode yang mudah dipahami dan gampang di ubah. Salah satu prinsip yang dikenal dalam dunia pemrograman adalah __DRY__ atau ==__Don't Repeat Yourself__==, maksudnya apa?
+Kode yang baik adalah kode yang mudah dipahami dan gampang di ubah. Salah satu
+prinsip yang dikenal dalam dunia pemrograman adalah **DRY** atau
+**Don't Repeat Yourself**, maksudnya apa?
 
-Maksudnya adalah untuk satu tugas tertentu, jangan tulis ulang-ulang kodenya, ==cukup sekali saja== dengan menggunakan perulangan.
+Maksudnya adalah untuk satu tugas tertentu, jangan tulis ulang-ulang kodenya,
+cukup sekali saja dengan menggunakan perulangan.
 
-> Kebalikan dari prinsip DRY adalah WET atau **Write Everything Twice**, atau **We Enjoy Typing**
+> Kebalikan dari prinsip DRY adalah WET atau **Write Everything Twice**, atau 
+> **We Enjoy Typing**
 
 ### Fungsi
 
-Fungsi adalah ==suatu struktur program yang dapat melakukan tugas tertentu secara berulang==, tergantung pada berapa banyak fungsi itu dipanggil.
+Fungsi adalah suatu struktur program yang dapat melakukan tugas tertentu secara
+berulang, tergantung pada berapa banyak fungsi itu dipanggil.
 
 Kita telah menggunakan banyak fungsi sebelumnya. Contohnya:
 
@@ -865,7 +926,8 @@ range(10, 20, 3)
 
 perintah `print`, `range`, `str` dan sebagainya sebenarnya adalah fungsi.
 
-> kata di depan parameter disebut fungsi, misalnya `print`, dan isi di dalamnya adalah parameter, misalnya `hello world`.
+> kata di depan parameter disebut fungsi, misalnya `print`, dan isi di dalamnya
+adalah parameter, misalnya `hello world`.
 
 Fungsi dapat kita definisi kan dengan menggunakan perintah `def`. Contohnya:
 
@@ -882,7 +944,8 @@ Hasilnya:
 spam
 ```
 
-Fungsi harus di buat sebelum dipanggil, jika tidak, maka akan menyebabkan error. Misalnya:
+Fungsi harus di buat sebelum dipanggil, jika tidak, maka akan menyebabkan error.
+Misalnya:
 
 ```python
 hello()
@@ -904,7 +967,7 @@ Fungsi bisa menerima argumen, contoh berikut adalah fungsi dengan argumen:
 ```python
 def print_with_exclamation(word):
     print(word + "!")
-    
+
 print_with_exclamation("spam")
 print_with_exclamation("eggs")
 print_with_exclamation("python")
@@ -935,7 +998,8 @@ Hasinya:
 13
 ```
 
-Argumen fungsi hanya bisa digunakan di dalam fungsi itu sendiri, jika digunakan di luar maka akan menyebabkan error, contohnya:
+Argumen fungsi hanya bisa digunakan di dalam fungsi itu sendiri, jika digunakan
+di luar maka akan menyebabkan error, contohnya:
 
 ```python
 def function(variable):
@@ -955,7 +1019,8 @@ NameError: name 'variable' is not defined
 
 ### Mengembalikan nilai dari fungsi
 
-Sebuah fungsi dapat mengembalikan nilai. Untuk mengembalikan nilai, digunakan perintah `return`. Contohnya:
+Sebuah fungsi dapat mengembalikan nilai. Untuk mengembalikan nilai, digunakan
+perintah `return`. Contohnya:
 
 ```python
 def max(x, y):
@@ -963,7 +1028,7 @@ def max(x, y):
         return x
     else:
         return y
-        
+
 print(max(4, 7))
 z = max(8, 5)
 print(z)
@@ -976,7 +1041,8 @@ Hasilnya:
 8
 ```
 
-Sekali kita menggunakan perintah return, maka perintah dibawanya tidak akan dijalankan lagi. Misalnya:
+Sekali kita menggunakan perintah return, maka perintah dibawanya tidak akan
+dijalankan lagi. Misalnya:
 
 ```python
 def add_numbers(x, y):
@@ -995,7 +1061,8 @@ Hasilnya:
 
 ### Fungsi sebagai objek
 
-Fungsi dapat di _assign_ kan dengan suatu variabel maupun di _reassign_. Contohnya:
+Fungsi dapat di _assign_ kan dengan suatu variabel maupun di _reassign_.
+Contohnya:
 
 ```python
 def multiply(x, y):
@@ -1036,9 +1103,12 @@ Hasilnya:
 
 ### Modul
 
-Modul atau module adalah ==kode yang sudah ditulis dengan tugas tertentu==, misalnya membuat angka random, operasi matematika dan fungsi lainnya.
+Modul atau module adalah kode yang sudah ditulis dengan tugas tertentu, misalnya
+membuat angka random, operasi matematika dan fungsi lainnya.
 
-Untuk menggunakan module, dapat digunakan perintah `import nama_modul`. Dan untuk menggunakan module yang telah dipanggil, digunakan perintah `nama_modul.variabel`. Contohnya:
+Untuk menggunakan module, dapat digunakan perintah `import nama_modul`. Dan
+untuk menggunakan module yang telah dipanggil, digunakan perintah
+`nama_modul.variabel`. Contohnya:
 
 ```python
 import random
@@ -1058,7 +1128,9 @@ Hasilnya:
 1
 ```
 
-Jika hanya dibutuhkan fungsi tertentu dari sebuah module, maka dapat digunakan `from nama_modul import var`. Dan `var` dapat digunakan untuk melaksanakan tugas tertentu. Contohnya, misalnya untuk memanggil `pi` dari module `math`.
+Jika hanya dibutuhkan fungsi tertentu dari sebuah module, maka dapat digunakan
+`from nama_modul import var`. Dan `var` dapat digunakan untuk melaksanakan tugas
+tertentu. Contohnya, misalnya untuk memanggil `pi` dari module `math`.
 
 ```python
 from math import pi
@@ -1072,13 +1144,15 @@ Hasilnya:
 3.141592653589793
 ```
 
-Untuk memanggil beberapa fungsi tertentu dari module, dapat menggunakan tanda koma (`,`). Misalnya:
+Untuk memanggil beberapa fungsi tertentu dari module, dapat menggunakan tanda
+koma (`,`). Misalnya:
 
 ```python
 from math import pi, sqrt
 ```
 
-> Menggunakan tanda aterik (*) dapat memanggil semua fungsi dari sebuah module, misalnya:
+> Menggunakan tanda aterik (\*) dapat memanggil semua fungsi dari sebuah module,
+> misalnya:
 >
 > ```python
 > from math import *
@@ -1111,15 +1185,21 @@ Hasilnya:
 
 ### Library/ pustaka standar dan pip
 
-Ada tiga jenis module di Python yaitu ==modul yang anda bisa tulis sendiri, modul yang diinstall dari sumber eksternal dan modul bawaan (pustaka standar)==.
+Ada tiga jenis module di Python yaitu modul yang anda bisa tulis sendiri, modul
+yang diinstall dari sumber eksternal dan modul bawaan (pustaka standar).
 
-Beberapa pustaka standar adalah: **string**, **re**, **datetime**, **math**, **random**, **os**, **multiprocessing**, **subprocess**, **socket**, **email**, **json**, **doctest**, **unittest**, **pdb**, **argparse** dan **sys**.
+Beberapa pustaka standar adalah: **string**, **re**, **datetime**, **math**,
+**random**, **os**, **multiprocessing**, **subprocess**, **socket**, **email**,
+**json**, **doctest**, **unittest**, **pdb**, **argparse** dan **sys**.
 
 > Pustaka standar adalah salah satu kekuatan dari Python.
 
-Beberapa standar pustaka ditulis dalam bahasa Python sendiri dan beberapa ditulis dalam bahasa C.
+Beberapa standar pustaka ditulis dalam bahasa Python sendiri dan beberapa
+ditulis dalam bahasa C.
 
-Banyak modul eksternal Python yang disimpan di **Python Package Index (PyPI)**. Untuk menggunakannya harus diinstall (membutuhkan download). Untuk menginstallnya, dapat digunakan perintah pada `cmd` dan `terminal`:
+Banyak modul eksternal Python yang disimpan di **Python Package Index (PyPI)**.
+Untuk menggunakannya harus diinstall (membutuhkan download).
+Untuk menginstallnya, dapat digunakan perintah pada `cmd` dan `terminal`:
 
 ```python
 pip install nama_pustaka
@@ -1127,7 +1207,9 @@ pip install nama_pustaka
 
 ## Exception dan File
 
-Exception adalah ==informasi yang ditampilkan ketika terdapat error pada sebuah program==. Misalnya error karena membagi bilangan dengan nol (0), atau error karena nama variabel yang dipanggil tidak ada. Contohnya:
+Exception adalah informasi yang ditampilkan ketika terdapat error pada sebuah
+program. Misalnya error karena membagi bilangan dengan nol (0), atau error
+karena nama variabel yang dipanggil tidak ada. Contohnya:
 
 ```python
 num1 = 7
@@ -1143,7 +1225,10 @@ ZeroDivisionError: division by zero
 
 ### Exception Handling
 
-Untuk menangkap sebuah error, kita dapat menggunakan perintah `try/except`. Perintah `try` akan dijalankan dan akan langsung pindah ke perintah `except` ketika terdapat sebuah error. Jika tidak ada error, maka `except` tidak akan dijalankan. Contohnya:
+Untuk menangkap sebuah error, kita dapat menggunakan perintah `try/except`.
+Perintah `try` akan dijalankan dan akan langsung pindah ke perintah `except`
+ketika terdapat sebuah error. Jika tidak ada error, maka `except` tidak akan
+dijalankan. Contohnya:
 
 ```python
 try:
@@ -1163,7 +1248,8 @@ An error occurred
 due to zero division
 ```
 
-`try` dapat menggunakan multi `except` atau satu `except` dengan banyak parameter. Contohnya:
+`try` dapat menggunakan multi `except` atau satu `except` dengan banyak
+parameter. Contohnya:
 
 ```python
 try:
@@ -1182,7 +1268,8 @@ Hasilnya:
 Error occurred
 ```
 
-Sedangkan `try` tanpa parameter pada `except` akan menangkap semua error yang masuk ke `except`, misalnya:
+Sedangkan `try` tanpa parameter pada `except` akan menangkap semua error yang
+masuk ke `except`, misalnya:
 
 ```python
 try:
@@ -1200,9 +1287,10 @@ An error occurred
 
 ### Finally
 
-`finally` digunakan untuk menjalankan perintah tidak peduli terdapat error atau tidak. Perintah `finally` diletakkan di bawah `try/except`.
+`finally` digunakan untuk menjalankan perintah tidak peduli terdapat error atau
+tidak. Perintah `finally` diletakkan di bawah `try/except`.
 
->   Kode yang ada pada `finally` akan selalu dijalankan.
+> Kode yang ada pada `finally` akan selalu dijalankan.
 
 Contohnya:
 
@@ -1224,7 +1312,8 @@ Divided by zero
 This code will run no matter what
 ```
 
-Kode di dalam `finally` akan di jalankan terlebih dahulu walaupun terdapat error yang tidak ditangkap oleh perintah `except`. Misalnya:
+Kode di dalam `finally` akan di jalankan terlebih dahulu walaupun terdapat error
+yang tidak ditangkap oleh perintah `except`. Misalnya:
 
 ```python
 try:
@@ -1249,7 +1338,8 @@ NameError: name 'unknown_var' is not defined
 
 ### Raising exception
 
-`exception` juga bisa dimunculkan dengan menggunakan perintah `raise` namun harus jelas error yang akan dimunculkan.  Contohnya:
+`exception` juga bisa dimunculkan dengan menggunakan perintah `raise` namun
+harus jelas error yang akan dimunculkan. Contohnya:
 
 ```python
 print(1)
@@ -1276,7 +1366,8 @@ Hasilnya:
 NameError: Invalid name!
 ```
 
-Di dalam `except`,`raise` bisa digunakan tanpa memanggil error yang dimaksud. Contohnya:
+Di dalam `except`,`raise` bisa digunakan tanpa memanggil error yang dimaksud.
+Contohnya:
 
 ```python
 try:
@@ -1296,7 +1387,9 @@ ZeroDivisionError: division by zero
 
 ### Assertions
 
-Assertion adalah salah satu cara mengecek error yang akan dimunculkan ketika program selesai dijalankan. Jika testing yang diberikan bernilai `false` maka akan exception-nya akan muncul. Contohnya:
+Assertion adalah salah satu cara mengecek error yang akan dimunculkan ketika
+program selesai dijalankan. Jika testing yang diberikan bernilai `false` maka
+akan exception-nya akan muncul. Contohnya:
 
 ```python
 print(1)
@@ -1314,9 +1407,10 @@ Hasilnya:
 AssertionError
 ```
 
->   Assertion biasanya digunakan pada pengecekan input dan output sebuah fungsi.
+> Assertion biasanya digunakan pada pengecekan input dan output sebuah fungsi.
 
-Assertion juga bisa menerima parameter kedua yaitu output yang akan ditampilkan ketika error terjadi. Contohnya:
+Assertion juga bisa menerima parameter kedua yaitu output yang akan ditampilkan
+ketika error terjadi. Contohnya:
 
 ```python
 temp = -10
@@ -1331,7 +1425,8 @@ AssertionError: Colder than absolute zero!
 
 ### File
 
-Python dapat ==membuka dan mengedit file==. Namun sebelum bisa di edit, file tersebut harus dibuka terlebih dahulu.
+Python dapat membuka dan mengedit file. Namun sebelum bisa di edit, file
+tersebut harus dibuka terlebih dahulu.
 
 #### membuka file
 
@@ -1341,16 +1436,18 @@ untuk membuka file, kita menggunakan perintah `open`, contohnya:
 myfile = open("filename.txt")
 ```
 
->   ==filename.txt== adalah nama file atau path tempat file tersebut disimpan
+> filename.txt adalah nama file atau path tempat file tersebut disimpan
 
-Untuk membuka file, juga dapat menerima argumen kedua yang mana berfungsi untuk `permision file`.
+Untuk membuka file, juga dapat menerima argumen kedua yang mana berfungsi untuk
+`permision file`.
 
 Ada beberapa kode, yaitu:
 
-1.  `r` berfungsi untuk `read mode`,
-2.  `w` untuk `write`, berarti untuk menulis ulang ke dalam file,
-3.  `a` untuk `append` yaitu akan menambah sesuatu di akhir file,
-4.  `b` untuk mode `binary`, digunakan untuk membuka file non-teks seperti gambar, suara, video dan berbagai format lain.
+1. `r` berfungsi untuk `read mode`,
+2. `w` untuk `write`, berarti untuk menulis ulang ke dalam file,
+3. `a` untuk `append` yaitu akan menambah sesuatu di akhir file,
+4. `b` untuk mode `binary`, digunakan untuk membuka file non-teks seperti
+	gambar, suara, video dan berbagai format lain.
 
 Contohnya:
 
@@ -1366,7 +1463,8 @@ open("filename.txt")
 open("filename.txt", "wb")
 ```
 
->   Dapat digunakan tanda `+` untuk menambah ekstra akses, misalnya `r+` untuk mode `read` dan `write` bersamaan.
+> Dapat digunakan tanda `+` untuk menambah ekstra akses, misalnya `r+` untuk
+mode `read` dan `write` bersamaan.
 
 Kita dapat menampilkan isi file dengan perintah:
 
@@ -1388,11 +1486,14 @@ print(file.read())
 file.close()
 ```
 
->   Jika `file.read()` tidak diberikan nilai  atau negatif, maka file akan dibaca semua.
+> Jika `file.read()` tidak diberikan nilai atau negatif, maka file akan dibaca
+> semua.
 
-Setelah semua file di read, maka jika di read ulang, akan menghasilkan string kosong. Hal ini disebabkan program sudah mencapai `end of file`.
+Setelah semua file di read, maka jika di read ulang, akan menghasilkan string
+kosong. Hal ini disebabkan program sudah mencapai `end of file`.
 
-Untuk membaca file baris per baris, kita dapat menggunakan perintah `readline()`, contohnya jika terdapat file dengan isi:
+Untuk membaca file baris per baris, kita dapat menggunakan perintah
+`readline()`, contohnya jika terdapat file dengan isi:
 
 ```txt
 Halo semua,
@@ -1422,7 +1523,7 @@ file = open("filename.txt", "r")
 for line in file:
     print(line)
 
-file.close() 
+file.close()
 ```
 
 hasilnya:
@@ -1435,7 +1536,8 @@ nama saya
 Deo Valiandro. M
 ```
 
->   Di output, baris dipisahkan oleh baris kosong, karena fungsi print secara otomatis menambahkan baris baru di akhir outputnya.
+> Di output, baris dipisahkan oleh baris kosong, karena fungsi print secara
+otomatis menambahkan baris baru di akhir outputnya.
 
 #### menulis file
 
@@ -1457,7 +1559,7 @@ Hasilnya:
 This has been written to a file
 ```
 
->   Parameter `w` akan otomatis membuat file baru jika file yang dituju tidak ada
+> Parameter `w` akan otomatis membuat file baru jika file yang dituju tidak ada
 
 File yang sementara terbuka, isinya akan kosong. Buktinya:
 
@@ -1506,9 +1608,11 @@ Hasilnya:
 12
 ```
 
->   Untuk menulis tipe data selain string, maka data tersebut harus di convert ke string.
+> Untuk menulis tipe data selain string, maka data tersebut harus di convert ke
+> string.
 
-Untuk bekerja lebih interaktif pada file, maka digunakan `try/finally`. Contohnya:
+Untuk bekerja lebih interaktif pada file, maka digunakan `try/finally`.
+Contohnya:
 
 ```python
 try:
@@ -1527,11 +1631,13 @@ with open("filename.txt") as f:
    	print(f.read())
 ```
 
-dengan cara tersebut, maka akan membuat variabel sementara (variabel `f`). File akan otomatis tertutup ketika perintah `with` selesai.
+dengan cara tersebut, maka akan membuat variabel sementara (variabel `f`). File
+akan otomatis tertutup ketika perintah `with` selesai.
 
 #### menutup file
 
-setiap file yang terbuka, harus ditutup kembali setelah digunakan. Untuk melakukannya, dapat dilakukan:
+setiap file yang terbuka, harus ditutup kembali setelah digunakan. Untuk
+melakukannya, dapat dilakukan:
 
 ```python
 file = open("filename.txt", "w")
@@ -1543,7 +1649,8 @@ file.close()
 
 ### None
 
-None adalah ==tidak adanya nilai==. None mirip dengan `null` pada pemrograman lain. None bernilai `false` ketika di konversi ke `boolean`. Contohnya:
+None adalah tidak adanya nilai. None mirip dengan `null` pada pemrograman lain.
+None bernilai `false` ketika di konversi ke `boolean`. Contohnya:
 
 ```python
 >>> None == None
@@ -1572,7 +1679,10 @@ None
 
 ### Dictionary
 
-Dictionary adalah tipe data yang berfungsi ==memasangkan suatu data dengan kunci tertentu==. Kunci yang digunakan adalah suatu integer. Dictionary ditulis dalam tanda kurung kurawal (<kbd>{}</kbd>). Dictionary dapat menampung tipe data apa saja sebagai nilai. Contohnya:
+Dictionary adalah tipe data yang berfungsi memasangkan suatu data dengan kunci
+tertentu. Kunci yang digunakan adalah suatu integer. Dictionary ditulis dalam
+tanda kurung kurawal (<kbd>{}</kbd>). Dictionary dapat menampung tipe data apa
+saja sebagai nilai. Contohnya:
 
 ```python
 ages = {"Dave": 24, "Mary": 42, "John": 58}
@@ -1587,15 +1697,16 @@ Hasilnya:
 42
 ```
 
->   Representasi dari setiap elemen dictionary adalah pasangan `kunci:nilai`.
+> Representasi dari setiap elemen dictionary adalah pasangan `kunci:nilai`.
 
-Memanggil kunci yang tidak ada dalam dictionary akan menyebabkan error. Misalnya:
+Memanggil kunci yang tidak ada dalam dictionary akan menyebabkan error.
+Misalnya:
 
 ```python
 primary = {
-  	"red": [255, 0, 0], 
-  	"green": [0, 255, 0], 
-  	"blue": [0, 0, 255], 
+  	"red": [255, 0, 0],
+  	"green": [0, 255, 0],
+  	"blue": [0, 0, 255],
 }
 
 print(primary["red"])
@@ -1610,13 +1721,15 @@ Hasilnya:
 KeyError: 'yellow'
 ```
 
->   Dictionary kosong dibuat dengan menggunakan `{}`
+> Dictionary kosong dibuat dengan menggunakan `{}`
 
-Kunci yang digunakan haruslah objek yang immutable atau tidak dapat diubah, sehingga objek-objke mutable seperti list dan dictionary tidak dapat digunakan sebagai kunci (error jika digunakan). Contohnya:
+Kunci yang digunakan haruslah objek yang immutable atau tidak dapat diubah,
+sehingga objek-objke mutable seperti list dan dictionary tidak dapat digunakan
+sebagai kunci (error jika digunakan). Contohnya:
 
 ```python
 bad_dict = {
-  [1, 2, 3]: "one two three", 
+  [1, 2, 3]: "one two three",
 }
 ```
 
@@ -1626,7 +1739,9 @@ Hasilnya:
 TypeError: unhashable type: 'list'
 ```
 
-Seperti list, kunci pada sebuah dictionary juga bisa di ubah nilainya. Namun tidak seperti list, pada dictionary bisa dibuat key baru dengan nilainya langsung. Misalnya:
+Seperti list, kunci pada sebuah dictionary juga bisa di ubah nilainya. Namun
+tidak seperti list, pada dictionary bisa dibuat key baru dengan nilainya
+langsung. Misalnya:
 
 ```python
 squares = {1: 1, 2: 4, 3: "error", 4: 16,}
@@ -1641,7 +1756,8 @@ Hasilnya:
 {1: 1, 2: 4, 3: 9, 4: 16, 8: 64}
 ```
 
-Untuk mengecek sebuah kunci di dalam dictionary, dapat digunakan `in` atau `not in`. Misalnya:
+Untuk mengecek sebuah kunci di dalam dictionary, dapat digunakan `in` atau
+`not in`. Misalnya:
 
 ```python
 nums = {
@@ -1662,13 +1778,15 @@ False
 True
 ```
 
-Sebuah method yang berguna pada dictionary adalah `get` yang berguna untuk mengecek nilai seperti cara pemanggilan biasa, namun bedanya jika tidak ditemukan nilainya, maka return value-nya dapat di kustom. Contohnya:
+Sebuah method yang berguna pada dictionary adalah `get` yang berguna untuk
+mengecek nilai seperti cara pemanggilan biasa, namun bedanya jika tidak
+ditemukan nilainya, maka return value-nya dapat di kustom. Contohnya:
 
 ```python
 pairs = {
     1: "apple",
-  	"orange": [2, 3, 4], 
-  	True: False, 
+  	"orange": [2, 3, 4],
+  	True: False,
   	None: "True",
 }
 
@@ -1687,7 +1805,8 @@ not in dictionary
 
 ### Tuples
 
-Tuples adalah tipe data yang mirip dengan list, ==namun bedanya tuples immutable (tidak dapat diubah)==. Tuples dibuat dengan kurung biasa, contohnya:
+Tuples adalah tipe data yang mirip dengan list, namun bedanya tuples immutable
+(tidak dapat diubah). Tuples dibuat dengan kurung biasa, contohnya:
 
 ```python
 angka = ("satu", "dua", "tiga")
@@ -1705,7 +1824,8 @@ Hasilnya:
 'satu'
 ```
 
-Jika mencoba menambah data ke sebuah tuples, maka akan menyebabkan error. Misalnya:
+Jika mencoba menambah data ke sebuah tuples, maka akan menyebabkan error.
+Misalnya:
 
 ```python
 angka[3] = "empat"
@@ -1736,11 +1856,13 @@ atau jika ingin membuat tuple kosong:
 tpl = ()
 ```
 
->   Tuple lebih cepat dari list, namun nilainya tidak bisa diubah
+> Tuple lebih cepat dari list, namun nilainya tidak bisa diubah
 
 ### List Slice
 
-Untuk menampilkan data dari list dengan lebih "advance", dapat digunakan list slice. Misalnya dengan menggunakan titik dua, `[a:b]` yang mana akan menampilkan ==data >= a dan < b (range)==. Misalnya:
+Untuk menampilkan data dari list dengan lebih "advance", dapat digunakan list
+slice. Misalnya dengan menggunakan titik dua, `[a:b]` yang mana akan menampilkan
+data >= a dan < b (range). Misalnya:
 
 ```python
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -1757,7 +1879,8 @@ Hasilnya:
 [0]
 ```
 
-Jika nilai awal atau nilai akhir tidak diberikan, maka akan mengambil data dari awal tau sampai akhir. Misalnya:
+Jika nilai awal atau nilai akhir tidak diberikan, maka akan mengambil data dari
+awal tau sampai akhir. Misalnya:
 
 ```python
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -1772,9 +1895,10 @@ Hasilnya:
 [49, 64, 81]
 ```
 
->   `[:]` (slice) juga dapat digunakan pada tuples
+> `[:]` (slice) juga dapat digunakan pada tuples
 
-Slice juga dapat menggunakan dua titik dua `[a:b:c]`, yang mana 'c' adalah nilai lompat. Misalnya:
+Slice juga dapat menggunakan dua titik dua `[a:b:c]`, yang mana 'c' adalah nilai
+lompat. Misalnya:
 
 ```python
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -1782,7 +1906,9 @@ print(squares[::2])
 print(squares[2:8:3])
 ```
 
-Terlihat nilai `[2:8:3]`, berarti akan mengambil nilai mulai dari indeks 2 sampai indeks 8-1, dengan melompat-lompat setiap 3 angka, dimulai dari indeks 2, lompat 3 kali ke indeks 5.
+Terlihat nilai `[2:8:3]`, berarti akan mengambil nilai mulai dari indeks 2
+sampai indeks 8-1, dengan melompat-lompat setiap 3 angka, dimulai dari indeks 2,
+lompat 3 kali ke indeks 5.
 
 Hasilnya:
 
@@ -1791,7 +1917,8 @@ Hasilnya:
 [4, 25]
 ```
 
-Nilai slice yang bernilai negatif, maka nilai akan dimulai dari belakang ke depan. Contohnya:
+Nilai slice yang bernilai negatif, maka nilai akan dimulai dari belakang ke
+depan. Contohnya:
 
 ```python
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -1806,7 +1933,8 @@ Hasilnya:
 
 ### List Comprehensions
 
-List dapat dibuat dengan menggunakan aturan sederhana yang diinspirasi dari notasi matematika. Misalnya menggunakan aturan for:
+List dapat dibuat dengan menggunakan aturan sederhana yang diinspirasi dari
+notasi matematika. Misalnya menggunakan aturan for:
 
 ```python
 cubes = [i**3 for i in range(5)]
@@ -1832,7 +1960,8 @@ Hasilnya:
 [0, 4, 16, 36, 64]
 ```
 
-Membuat list yang "terlalu besar" akan menyebabkan error ==**MemoryError**==. Misalnya:
+Membuat list yang "terlalu besar" akan menyebabkan error **MemoryError**.
+Misalnya:
 
 ```python
 even = [2*i for i in range(10**100)]
@@ -1846,9 +1975,12 @@ MemoryError
 
 ### Format String
 
-Cara klasik jika ingin mengkombinasikan string dan non-string adalah dengan mengconvert ke string terlebih dahulu sebelum disatukan dengan string.
+Cara klasik jika ingin mengkombinasikan string dan non-string adalah dengan
+mengconvert ke string terlebih dahulu sebelum disatukan dengan string.
 
-Cara lain yang lebih powerfull yang bisa menggabungkan string dengan non-string adalah dengan menggunakan format string. Cara kerjanya adalah substitusi ke dalam string. Contohnya:
+Cara lain yang lebih powerfull yang bisa menggabungkan string dengan non-string
+adalah dengan menggunakan format string. Cara kerjanya adalah substitusi ke
+dalam string. Contohnya:
 
 ```python
 nums = [4, 5, 6]
@@ -1862,7 +1994,8 @@ Hasilnya:
 Numbers: 4 5 6
 ```
 
-Setiap argumen yang ada di dalam tanda kurung kurawal akan diganti dengan nilai dari format string.
+Setiap argumen yang ada di dalam tanda kurung kurawal akan diganti dengan nilai
+dari format string.
 
 Selain itu, nilai pada format string juga berbentuk argumen. Contohnya:
 
@@ -1881,11 +2014,12 @@ Hasilnya:
 
 Python mempunyai banyak fungsi bawaan yang berguna, misalnya:
 
-1.  `join` &#8594; untuk menggabungkan list string
-2.  `replace` &#8594; untuk mengganti string dengan string lain
-3.  `startswith` dan `endswith` &#8594; untuk mengecek sub-string yang ada di awal atau akhir sebuah string
-4.  `lower` dan `upper` &#8594; untuk mengubah jadi huruf kecil atau huruf besar
-5.  `split` &#8594; untuk memisahkan string
+1. `join` &#8594; untuk menggabungkan list string
+2. `replace` &#8594; untuk mengganti string dengan string lain
+3. `startswith` dan `endswith` &#8594; untuk mengecek sub-string yang ada di
+   awal atau akhir sebuah string
+4. `lower` dan `upper` &#8594; untuk mengubah jadi huruf kecil atau huruf besar
+5. `split` &#8594; untuk memisahkan string
 
 Contohnya:
 
@@ -1914,7 +2048,7 @@ print("spam, eggs, ham".split(", "))
 
 ### Fungsi Numerik
 
-Untuk fungsi yang berguna pada perhitungan numerik, 
+Untuk fungsi yang berguna pada perhitungan numerik,
 
 1.  `min` &#8594; mencari nilai maksimum
 2.  `max` &#8594; mencari nilai minimum
@@ -1941,7 +2075,9 @@ Hasilnya:
 
 ### Fungsi List
 
-Sebuah list dapat digunakan dalam pengkondisian dengan menggunakan `all` atau `any`. `enumerate` juga dapat digunakan untuk menampilkan list dan posisinya. Contohnya:
+Sebuah list dapat digunakan dalam pengkondisian dengan menggunakan `all` atau
+`any`. `enumerate` juga dapat digunakan untuk menampilkan list dan posisinya.
+Contohnya:
 
 ```python
 nums = [55, 44, 33, 22, 11]
@@ -1973,7 +2109,12 @@ At least one is even
 Misalnya kita mempunyai file txt dengan nama anu.txt:
 
 ```txt
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
 ```
 
 Lalu teks dibaca:
@@ -2059,4 +2200,3 @@ z - 0.0%
 ```
 
 ## Pemrograman Fungsional
-
